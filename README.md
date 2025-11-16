@@ -67,27 +67,27 @@ sudo nano /etc/snort/snort.conf
 ---
 ## 🏃‍♂️‍➡️ Running Snort IDS
 
-**First check if snort.conf file is successfully running:**
+**1️⃣ First check if snort.conf file is successfully running:**
 ```bash
 sudo snort -T -c /etc/snort/snort.conf -i enp0s3
 ```
 *screenshot:
 
-**Next the snort IDS in alert mode:**
+**2️⃣ Next the snort IDS in alert mode:**
 ```bash
 sudo snort -A console -c /etc/snort/snort.conf -I enp0s3
 ```
 *screenshot:
 
-**Back in Kali OS open terminal and scan the server using the above IP address**
+**3️⃣ Back in Kali OS open terminal and scan the server using the above IP address**
 ```bash
 nmap -Pn 192.168.x.x
 ```
-**Next give a ping request**
+**4️⃣ Next give a ping request**
 ```bash
 ping 192.168.x.x
 ```
-
+In the Ubuntu server instance you will be able to see the alerts popping up for the snort scan.
 ---
 ## 📝 Logging Alerts
 **1️⃣ Run Snort with logging enabled:**
