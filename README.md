@@ -65,7 +65,7 @@ sudo nano /etc/snort/snort.conf
 *screenshot:
 
 ---
-## 🏃‍♂️‍➡️ Running Snort IDS
+## 🏃‍♂️‍➡️ Running Snort IDS 
 
 **1️⃣ First check if snort.conf file is successfully running:**
 ```bash
@@ -88,6 +88,7 @@ nmap -Pn 192.168.x.x
 ping 192.168.x.x
 ```
 In the Ubuntu server instance you will be able to see the alerts popping up for the snort scan.
+
 ---
 ## 📝 Logging Alerts
 **1️⃣ Run Snort with logging enabled:**
