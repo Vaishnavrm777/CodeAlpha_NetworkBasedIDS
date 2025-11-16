@@ -28,6 +28,7 @@ Quick remainder: Change the network setting to bridged adapter and set promiscuo
 ifconfig
 ```
 Get the interface info i.e, wlan0 or enp0s3
+
 *screenshot:
 
 **2️⃣ In Ubuntu instance update system packages:**
