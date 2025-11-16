@@ -78,6 +78,7 @@ sudo snort -T -c /etc/snort/snort.conf -i enp0s3
 sudo snort -A console -c /etc/snort/snort.conf -I enp0s3
 ```
 *screenshot:
+
 **Back in Kali OS open terminal and scan the server using the above IP address**
 ```bash
 nmap -Pn 192.168.x.x
