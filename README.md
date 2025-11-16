@@ -1,5 +1,5 @@
-# CodeAlpha_NetworkBasedIDS
-Network-based intrusion detection system using snort.
+# Network-Based Intrusion Detection System
+Network-based intrusion detection system using snort. A project for CodeAlpha internship.
 
 ## 🛠 Requirements
 - Virtual box
@@ -76,5 +76,22 @@ sudo snort -T -c /etc/snort/snort.conf -i enp0s3
 ```bash
 sudo snort -A console -c /etc/snort/snort.conf -I enp0s3
 ```
----
+*screenshot:
 
+---
+## 📝 Logging Alerts
+**1️⃣ Run Snort with logging enabled:**
+```bash
+sudo snort -A console -c /etc/snort/snort.conf -I enp0s3 -l /var/log/snort
+```
+**2️⃣ View alerts:**
+```bash
+sudo cat /var/log/snort/snort.alert.fast
+```
+*screenshot: 
+
+## 📊 Example Alerts
+- Scan UPnP service discover attempt
+- ICMP Ping Detected
+- Suspicious TCP connection attempts
+  *screenshot:
