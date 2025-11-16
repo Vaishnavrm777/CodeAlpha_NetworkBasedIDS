@@ -39,7 +39,7 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 sudo apt install snort
 ```
-During mid installation an option to enter the local network range is shown. Type your network ip range, for example 192.168.xx.0/32
+During mid installation an option to enter the local network range is shown. Type your machine's network ip range, for example 192.168.xx.0/32
 
 **4️⃣ Verify Snort installation:**
 ```bash
@@ -70,13 +70,21 @@ sudo nano /etc/snort/snort.conf
 ```bash
 sudo snort -T -c /etc/snort/snort.conf -i enp0s3
 ```
-📸 *screenshot:
+*screenshot:
 
 **Next the snort IDS in alert mode:**
 ```bash
 sudo snort -A console -c /etc/snort/snort.conf -I enp0s3
 ```
 *screenshot:
+**Back in Kali OS open terminal and scan the server using the above IP address**
+```bash
+nmap -Pn 192.168.x.x
+```
+**Next give a ping request**
+```bash
+ping 192.168.x.x
+```
 
 ---
 ## 📝 Logging Alerts
