@@ -29,7 +29,7 @@ ifconfig
 ```
 Get the interface info i.e, wlan0 or enp0s3
 
-*screenshot: `[IP-Address](https://github.com/Vaishnavrm777/CodeAlpha_NetworkBasedIDS/blob/main/Images/IPaddress.png)`*
+*screenshot: [IP-Address](https://github.com/Vaishnavrm777/CodeAlpha_NetworkBasedIDS/blob/main/Images/IPaddress.png)*`
 
 **2️⃣ In Ubuntu instance update system packages:**
 ```bash
