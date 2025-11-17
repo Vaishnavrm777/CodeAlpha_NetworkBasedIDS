@@ -109,4 +109,5 @@ sudo cat /var/log/snort/snort.alert.fast
 - Scan UPnP service discover attempt
 - ICMP Ping Detected
 - Suspicious TCP connection attempts
+
 *screenshot: [example-alerts](https://github.com/Vaishnavrm777/CodeAlpha_NetworkBasedIDS/blob/main/Images/example_alert.png)*
