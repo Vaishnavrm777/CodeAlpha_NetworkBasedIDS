@@ -19,7 +19,7 @@ Network-based intrusion detection system using snort. A project for CodeAlpha in
 
 **4️⃣ Import the iso file to virtualbox and run the new instance**
 
-Quick remainder: Change the network setting to bridged adapter and set promiscuous mode to 'Allow All', before running the server.
+Quick remainder: Change the network setting to bridged adapter and set promiscuous mode to 'Allow All', before running the server(also do it for kali linux).
 
 ---
 ## Snort Installation
