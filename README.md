@@ -83,10 +83,14 @@ sudo snort -A console -c /etc/snort/snort.conf -I enp0s3
 ```bash
 nmap -Pn 192.168.x.x
 ```
+*screenshot
+
 **4️⃣ Next give a ping request**
 ```bash
 ping 192.168.x.x
 ```
+*screenshot:
+
 In the Ubuntu server instance you will be able to see the alerts popping up for the snort scan.
 
 ---
@@ -105,5 +109,4 @@ sudo cat /var/log/snort/snort.alert.fast
 - Scan UPnP service discover attempt
 - ICMP Ping Detected
 - Suspicious TCP connection attempts
-
-  *screenshot:
+*screenshot:
